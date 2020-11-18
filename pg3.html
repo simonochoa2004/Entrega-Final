@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Parcial</title>
+		<link rel="stylesheet" type="text/css" href="estilo1.css">
+</head>
+<h1 style="color: green; font-family:Helvetica;font-weight:bold; "><big><center> Capitulo 3</big></center></h1>
+<body style="background-image: url(fondoprin.jpg);">
+<bgsound src="musica1.mp3" loop="1">
+<center>
+
+
+
+
+<div id="c1" style="position: absolute;height:52.8%;width:43%;border:solid green 5px;left: 4%; bottom: 25%">
+
+<button class="bo1" id="bo1" onmousedown="sonido1.play()"> Escuchar</button>
+<script >
+	var sonido1 = new Audio();
+	sonido1.src="lee3.mp3";
+</script>
+	<br><br><br><br>
+	<h1><center><em>No es una gran idea, dijo una hormiguita. Lo que verdaderamente cuenta no es 
+hacer el trabajo en un tiempo récord; lo importante es acabarlo realizándolo lo mejor 
+que sabes, pues siempre te quedará la recompensa de haberlo conseguido.
+<br>
+No todos los trabajos necesitan de obreros rápidos. Hay labores que requieren
+tiempo y esfuerzo. Si no lo intentas nunca sabrás lo que eres capaz de hacer, y 
+siempre te quedarás con la duda de si lo hubieras logrados alguna vez.
+<em><center><h1>
+	<br><br>
+</div>
+
+
+
+
+
+<div id="c2" style="position: absolute;height:55.5%;width:46.5%;border:solid green 5px;left: 50%; bottom: 25%">
+
+	<div class="c3" id="ani1"></div>
+<button onclick="hola2()" class="bo1" id="bo1" onmousedown="sonido2.play()"> Animar</button>
+<script >
+	var hola1=function(){
+		n=document.getElementById('ani1');
+		n.className='c3';
+
+		
+
+	}
+	var hola2=function(){
+		n2=document.getElementById('ani1');
+		n2.className='c32';
+		setTimeout(hola1,4400);
+	}
+
+
+
+		var sonido2 = new Audio();
+		sonido2.src="escucha3.mp3";
+
+
+</script>
+	<br><br>
+</div>
+<br><br><br><br><br><br><br>
+<form action="pg4.html">
+	<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+		<input type="submit" name="boton1" value="Siguiente" class="bp">
+</form>
+</center>
+
+
+</body>
+</html>

@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Parcial</title>
+		<link rel="stylesheet" type="text/css" href="estilo1.css">
+</head>
+<h1 style="color: red; font-family:Helvetica;font-weight:bold; "><big><center> Capitulo 4</big></center></h1>
+<body style="background-image: url(fondoprin.jpg);">
+<bgsound src="musica1.mp3" loop="1">
+<center>
+
+
+<div id="c1" style="position: absolute; height:55.5%;width:46.5%;border:solid red 5px;left: 4%; bottom: 25%">
+<div class="c4" id="ani1"></div>
+<button onclick="hola2()" class="bo2" id="bo2" onmousedown="sonido2.play()"> Animar</button>
+<script >
+
+	var hola1=function(){
+		n=document.getElementById('ani1');
+		n.className='c4';
+		
+
+	}
+	var hola2=function(){
+		n2=document.getElementById('ani1');
+		n2.className='c42';
+		setTimeout(hola1,3000);
+	}
+
+
+
+		var sonido2 = new Audio();
+		sonido2.src="escucha4.mp3";
+
+
+</script>
+	<br><br>
+</div>
+
+
+
+<div id="c2" style="position: absolute;height:52.8%;width:43%;border:solid red 5px;left: 53%; bottom: 25%">
+
+	
+
+	<button class="bo2" id="bo2" onmousedown="sonido1.play()"> Escuchar</button>
+<script >
+	var sonido1 = new Audio();
+	sonido1.src="lee4.mp3";
+</script>
+	<br><br><br><br>
+	<h1><center><em>Por ello, es mejor intentarlo y no conseguirlo que no probar y vivir con la duda. La constancia y la perseverancia son buenas aliadas para conseguir lo que nos proponemos; por ello yo te aconsejo que lo intentes. Hasta te puede sorprender de lo que eres capaz.
+		<br>
+¡Caramba, hormiguita, me has tocado las fibras! Esto es lo que yo necesitaba:alguien que me ayudara a comprender el valor del esfuerzo; te prometo que lo intentaré.<em><center><h1>
+	<br><br>
+</div>
+
+<form action="pg5.html">
+	<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+		<input type="submit" name="boton1" value="Siguiente" class="bp">
+</form>
+</center>
+
+
+</body>
+</html>
